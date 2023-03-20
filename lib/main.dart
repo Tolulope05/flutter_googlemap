@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'view/home_page.dart';
-import 'view/sample_map_docs.dart';
+import 'view/example/sample_map_docs.dart';
 
 void main() {
   runApp(const MyApp());
