@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'view/home_page.dart';
 import 'view/example/sample_map_docs.dart';
 
 void main() {
@@ -13,10 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: MapSample());
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MapSample(), // Sample 1
+    );
   }
 }
